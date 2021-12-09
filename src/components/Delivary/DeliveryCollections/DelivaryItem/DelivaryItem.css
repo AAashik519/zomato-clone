@@ -1,0 +1,22 @@
+.delivary-item-cover{
+    height: 190px;
+    width: 260px;
+    background:var(--primary-bg);
+    box-shadow:var(--collection-shadow) ;
+    border-radius: 8px;
+}
+.delivary-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.delivary-item-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+
+}
