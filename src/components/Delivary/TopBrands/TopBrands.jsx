@@ -74,6 +74,7 @@ const TopBrands = () => {
         <div className='top-brands max-width'>
             <div className='collection-title'>Top brands for you</div>
             <Slider {...settings}>
+        //second author "Md Rabiul Awal shuvo"
                 {
                     topBrandsList.map((brand)=>(
                         <div>
@@ -92,3 +93,5 @@ const TopBrands = () => {
 }
 
 export default TopBrands
+
+
